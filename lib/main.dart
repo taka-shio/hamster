@@ -15,11 +15,11 @@ class _HamsterGachaState extends State<HamsterGacha> {
   bool loading = false;
   final emojis = ['🩰', '🛼', '💐', '✨'];
     final images = [
-      "web/images/ahmet-yuksek-F-FzqFX-ia4-unsplash.jpg",
-      "web/images/ansaf-ahmad-_FGEmrZu5_o-unsplash.jpg",
-      "web/images/juan-lodola-CzmmMCYOGpk-unsplash.jpg",
-      "web/images/unavailable-photographer-GGh32n8JA7M-unsplash.jpg",
-      "web/images/unavailable-photographer-IM43ZCyvYb8-unsplash.jpg"
+      "images/ahmet-yuksek-F-FzqFX-ia4-unsplash.jpg",
+      "images/ansaf-ahmad-_FGEmrZu5_o-unsplash.jpg",
+      "images/juan-lodola-CzmmMCYOGpk-unsplash.jpg",
+      "images/unavailable-photographer-GGh32n8JA7M-unsplash.jpg",
+      "images/unavailable-photographer-IM43ZCyvYb8-unsplash.jpg"
     ];
 
   Future<void> gacha() async {
